@@ -186,13 +186,13 @@ Options
   Redondant avec les resultats intermediaires, surtout si on backtracke tout de suite
   Rajouter 400 pour ne pas backtracker une fois qu'on a fini les essais. -b 401 est similaire à -b 0...";
 
--f/-nf
+`-f`/`-nf`
 :Use/Don't use forced cells.
 
--bo min/max/no
+`-bo` min/max/no
 :Which cell to use for recursion/backtracking (min number of constraints, most number of constraints, the first one we find).
 
--o/-no
+`-o`/`-no`
 : Count/Don't count the number of operations
 
 By defaut the program output the backtracking and recursive depth, the number of
@@ -202,38 +202,38 @@ subsets of length n were used, and how many forced cells).
 
 ### Output
 
--ab/-nab
+`-ab`/`-nab`
 : Print/Don't print extra informations during backtrack.
   (You can get more info by adding 100 to -b to print the best looking result 
   before backtracking, 200 to print the best looking constraints before 
   recursion, and 300 for both to print both. A bit redondant if `-ai` is
   also enabled).
 
--ad/-nad
+`-ad`/`-nad`
 : Print/Don't print extra informations during recursion
 
--ar/-nar
+`-ar`/`-nar`
 : Print/Don't print intermediate solutions found during backtracking
 
--ari/-nari 
+`-ari`/`-nari`
 : Print/Don't print intermediate solutions found during recursion
 
--ai/-nai
+`-ai`/`-nai`
 : Print/Don't print the current looking sudoku at each step
 
--ac/-nac
+`-ac`/`-nac`
 : Print/Don't print the current constraints at each step
 
--ao/-nao
+`-ao`/`-nao`
 : Print/Don't print the number of opeations during each step (if `-no`, only print the number of iterations made)
 
--i
+`-i`
 : Equivalent to `-ai -ad -ao -ari`
 
--ni
+`-ni`
 : Equivalent to `-nai -nad -nao -nari`
 
--quiet
+`-quiet`
 : Only print the solution 
   (Activates `-ni -nar -nac -nab` and suppress some informative messages)
 
