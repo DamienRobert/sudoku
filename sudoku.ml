@@ -845,7 +845,7 @@ let rec build_solution contraintes depth  =
           (* {{{ essais *)
           let rec parcours_backtrack x = 
             if x= nb_nc then (
-              if (!opt_backtrack mod 10 =3 || !opt_backtrack = 5) && !changement then slave() 
+              if (!opt_backtrack mod 10 =3 || !opt_backtrack mod 10 = 5) && !changement then slave() 
               else (
                 if depth_slave = 0 then 
                   if !only_sol then (

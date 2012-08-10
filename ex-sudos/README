@@ -1,0 +1,23 @@
+hardest: the hardest sudoku known as of June 2012
+  http://www.efamol.com/efamol-news/news-item.php?id=43
+
+escargot and escargot2: hardest sudoku in 2010
+  http://www.efamol.com/efamol-news/news-item.php?id=10
+(these three require a depth of 2!)
+
+ex-dur: a sudoku requiring a depth of 1
+
+ex-backtrack*: for testing backtracking
+
+ex-impossible: a sudoku without solutions
+ex-multiple: not a true sudoku (multiple solutions)
+
+ex-sudokus: launch sudoku on several sudoku files (the code assume that you
+have compiled sudoku.ml into sudoku and it is inside your $PATH), some of
+which are of depth 2
+(I think these come from
+http://www.sudoku.com/boards/viewtopic.php?p=42813#42813
+http://www.sudoku.com/boards/viewtopic.php?t=4212
+the site sudoku.com has disappeared, but maybe you can recover the
+discusion on web archive)
+
