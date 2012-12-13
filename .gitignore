@@ -1,0 +1,7 @@
+sudoku
+sudoku-v*
+sudoku.numenor
+*.cmi
+*.cmx
+*.bak
+Doc/
