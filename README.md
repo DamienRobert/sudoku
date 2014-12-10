@@ -238,3 +238,9 @@ subsets of length n were used, and how many forced cells).
   (Activates `-ni -nar -nac -nab` and suppress some informative messages)
 
 The defaut command line is  `-b 2 -f -bo min -o -ar -ab -ni`.
+
+## Copyright
+
+Copyright © 2007-2012 Damien Robert
+
+MIT License. See {file:COPYING} for more details.
