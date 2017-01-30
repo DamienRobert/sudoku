@@ -241,6 +241,6 @@ The defaut command line is  `-b 2 -f -bo min -o -ar -ab -ni`.
 
 ## Copyright
 
-Copyright © 2007–2012 Damien Robert
+Copyright © 2007–2016 Damien Robert
 
 MIT License. See {file:COPYING} for more details.
